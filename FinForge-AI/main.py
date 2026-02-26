@@ -1,9 +1,9 @@
 import os
 import argparse
-from financial_complaint_management_system.exception import FinanceException
-from financial_complaint_management_system.pipeline import TrainingPipeline
-from financial_complaint_management_system.logger import logger
-from financial_complaint_management_system.entity.config_entity import TrainingPipelineConfig
+from finance_complaint.exception import FinanceException
+from finance_complaint.pipeline import TrainingPipeline
+from finance_complaint.logger import logger
+from finance_complaint.entity.config_entity import TrainingPipelineConfig
 import sys
 
 

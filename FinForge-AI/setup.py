@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 from typing import List
 
 # Declaring variables for setup functions
-PROJECT_NAME = "financial-complaint-management-system"
+PROJECT_NAME = "finforge-ai"
 VERSION = "0.0.4"
 AUTHOR = "Anand Katkade"
-DESCRIPTION = "This is a financial complaint management system."
+DESCRIPTION = "FinForge-AI: An AI-powered financial complaint analysis and dispute prediction system."
 
 REQUIREMENT_FILE_NAME = "requirements.txt"
 

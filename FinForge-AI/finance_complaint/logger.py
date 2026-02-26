@@ -25,4 +25,4 @@ logging.basicConfig(filename=LOG_FILE_PATH,
                     level=logging.INFO
                     )
 
-logger = logging.getLogger("FinanceComplaint")
+logger = logging.getLogger("FinForgeAI")

@@ -20,7 +20,7 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install -r requirements.txt
 RUN airflow db init 
-RUN airflow users create  -e avnish@ineuron.ai -f Avnish -l Yadav -p admin -r Admin  -u admin
+RUN airflow users create  -e anandkatkade96@gmail.com -f Anand -l Katkade -p admin -r Admin  -u admin
 RUN chmod 777 start.sh
 ENTRYPOINT [ "/bin/sh" ]
 CMD ["start.sh"]

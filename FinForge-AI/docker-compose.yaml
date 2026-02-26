@@ -12,7 +12,7 @@ volumes:
 services:
   application:
     build: .
-    container_name: financial-complaint-management-system
+    container_name: finforge-ai
     ports:
       - "8080:8080"
     environment:
@@ -22,7 +22,7 @@ services:
       - MONGO_DB_URL=${MONGO_DB_URL}
     volumes:
       - "./airflow/logs:/app/airflow/logs"
-      
+
   influxdb:
     image: influxdb:1.7
     container_name: influxdb
@@ -30,7 +30,7 @@ services:
     expose:
       - 8086
     ports:
-     - "8086:8086"
+      - "8086:8086"
     volumes:
       - influxdb-storage:/var/lib/influxdb
     environment:
@@ -81,7 +81,7 @@ services:
       - "./docker-compose-resource/promtail:/etc/promtail/"
     command: -config.file=/etc/promtail/config.yml
     ports:
-     - "9080:9080"
+      - "9080:9080"
     networks:
       - monitoring
 

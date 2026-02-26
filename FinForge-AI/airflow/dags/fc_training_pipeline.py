@@ -17,10 +17,10 @@ from airflow.operators.python import PythonOperator
     # These args will get passed on to each operator
     # You can override them on a per-task basis during operator initialization
 with DAG(
-    'finance_complaint',
+    'finforge_ai',
     default_args={'retries': 2},
     # [END default_args]
-    description='Machine learning Spark Project',
+    description='FinForge-AI: ML-powered Financial Dispute Prediction Pipeline',
     schedule_interval="@weekly",
     start_date=pendulum.datetime(2022, 11, 20, tz="UTC"),
     catchup=False,

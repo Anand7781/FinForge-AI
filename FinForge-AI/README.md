@@ -1,4 +1,5 @@
-# Financial Complaint Management System
+# FinForge-AI
+> AI-powered financial complaint analysis and dispute prediction system.
 
 # Problem Statement
 Understanding customer complaints is crucial for identifying issues in financial products. By analyzing these complaints, we can enhance existing products and ensure they meet customer needs effectively.
@@ -95,7 +96,7 @@ airflow db init
 
 To create login user for airflow
 ```
-airflow users create  -e anand@ineuron.ai -f Anand -l Katkade -p admin -r Admin  -u admin
+airflow users create  -e anandkatkade96@gmail.com -f Anand -l Katkade -p admin -r Admin  -u admin
 ```
 
 To start scheduler
